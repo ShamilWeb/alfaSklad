@@ -1,7 +1,6 @@
 import React from 'react';
 import ButtonNavigation from './ButtonNavigation';
 import {useSelector} from 'react-redux';
-import goToScreen from '../../logics/goToScreenLogics';
 
 console.log('ЗАПУСК ButtonNavigationContainer');
 

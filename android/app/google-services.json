@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "312202953453",
+    "firebase_url": "https://alfasklad-b5cab.firebaseio.com",
+    "project_id": "alfasklad-b5cab",
+    "storage_bucket": "alfasklad-b5cab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:312202953453:android:b8fa93a70308d86d5d42e4",
+        "android_client_info": {
+          "package_name": "com.alfasklad"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "312202953453-5cq3ritnc10q1ggkcv6r47okbdbc8vm7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBO39rRwlOoxuY0v-ygoIVs7TGWkwD-CNc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "312202953453-5cq3ritnc10q1ggkcv6r47okbdbc8vm7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
