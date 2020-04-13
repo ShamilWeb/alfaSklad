@@ -1,5 +1,9 @@
-const initialState = {};
-
-export const themReducer = (state = initialState, action) => {
-  return state;
+const initialState = {
+  colorBlack: '#4D4D4D',
+  colorWhite: '#fff',
+  paddingScreens: 20,
 };
+
+export default (navigationReducer = (state = initialState, action) => {
+  return state;
+});
