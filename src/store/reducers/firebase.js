@@ -1,13 +1,15 @@
-import {PRODUCTS} from '../types';
+import {PRODUCTS, PRODUCTS_NAME} from '../types';
 const initialState = {
   products: null,
-  productsNames: null,
+  productsName: null,
 };
 
 export default (fairebase = (state = initialState, action) => {
-  switch (PRODUCTS) {
-    case action.type:
+  switch (action.type) {
+    case PRODUCTS:
       return {...state, products: action.payLoad};
+    case PRODUCTS_NAME:
+      return {...state, productsName: action.payLoad};
   }
   return state;
 });
