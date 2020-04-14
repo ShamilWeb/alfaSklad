@@ -1,7 +1,7 @@
 import {createStore, combineReducers} from 'redux';
 import navigationReducer from './reducers/navigate';
 import themReducer from './reducers/them';
-import firebaseReducer from './reducers/firebase';
+import firebaseReducer from './reducers/products';
 
 const rootReducer = combineReducers({
   navigation: navigationReducer,

@@ -1,6 +1,6 @@
 import firestore from '@react-native-firebase/firestore';
 import AsyncStorage from '@react-native-community/async-storage';
-import {setProducts} from '../store/action/firebase';
+import {setProducts} from '../store/action/products';
 
 const getProducts = async dispatch => {
   console.log(
@@ -42,6 +42,7 @@ const getProducts = async dispatch => {
   /////////////////////////////////////////////////////////////
   const getData = async () => {
     const value = await AsyncStorage.getItem('products');
+
     if (value) {
       const products = JSON.parse(value);
       dispatch(setProducts(products));
