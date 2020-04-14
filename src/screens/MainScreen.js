@@ -1,7 +1,6 @@
 import React from 'react';
 import {View, Text, StyleSheet} from 'react-native';
 import ButtonNavigationContainer from '../components/MainScreen/ButtonNavigationContainer';
-
 console.log('ЗАПУСК MainScreen');
 
 const MainScreen = ({state}) => {

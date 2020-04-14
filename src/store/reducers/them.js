@@ -4,6 +4,6 @@ const initialState = {
   paddingScreens: 20,
 };
 
-export default (navigationReducer = (state = initialState, action) => {
+export default (themReducer = (state = initialState, action) => {
   return state;
 });
